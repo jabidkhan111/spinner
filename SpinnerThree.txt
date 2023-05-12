@@ -1,0 +1,17 @@
+//Java Fiel
+		
+		binding.spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                String selectedDuration = parent.getItemAtPosition(position).toString();
+                if (selectedDuration.equals("Months")){
+                    Toast.makeText(MainActivity.this, "Month", Toast.LENGTH_SHORT).show();
+                }else {
+                    Toast.makeText(MainActivity.this, "Year", Toast.LENGTH_SHORT).show();
+                }
+            }
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });

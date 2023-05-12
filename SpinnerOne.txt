@@ -1,0 +1,9 @@
+//
+<resources>
+    <string name="app_name">Emi</string>
+
+    <string-array name="number">
+        <item>Months</item>
+        <item>Years</item>
+    </string-array>
+</resources>
